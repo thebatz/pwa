@@ -1,2 +1,2 @@
 # pwa
-PWA prototyping repo
+PWA repo
