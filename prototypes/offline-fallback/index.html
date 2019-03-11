@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="description" content="Sample of pre-fetching resources during service worker registration.">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Service Worker Sample: offline fallback</title>
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="../../images/touch/chrome-touch-icon-192x192.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-title" content="Service Worker Sample: Pre-fetching Resources During Registration">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" href="../../images/apple-touch-icon-precomposed.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <link rel="icon" href="../../images/favicon.ico">
+    <script>
+      // Service workers require HTTPS (http://goo.gl/lq4gCo). If we're running on a real web server
+      // (as opposed to localhost on a custom port, which is whitelisted), then change the protocol to HTTPS.
+      if ((!location.port || location.port == "80") && location.protocol != 'https:') {
+        location.protocol = 'https:';
+      }
+    </script>
+
+    <script>
+      // Service workers require HTTPS (http://goo.gl/lq4gCo). If we're running on a real web server
+      // (as opposed to localhost on a custom port, which is whitelisted), then change the protocol to HTTPS.
+      if ((!location.port || location.port == "80") && location.protocol != 'https:') {
+        location.protocol = 'https:';
+      }
+    </script>
+
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <br><br>
+<h1>Yay, you are online!</h1>
+<p>Now go offline and <a href="#" id="refresh">refresh</a>!</p>
+<br>
+<p>Registered ServiceWorker:	<span id="register">Did not register</span>
+Active Controller:	<br><span id="controller">Did not activate</span></p>
+
+<p>ServiceWorker logs:</p>
+<p id="log">Here be logs: <br></p>
+<p>
+<button id="clearAndReRegister">View Complete Demo Again</button>
+</p>
+
+<script src="./index.js"></script>
+</body>
+</html>
