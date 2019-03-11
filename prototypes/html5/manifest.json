@@ -3,7 +3,7 @@
     "short_name": "Web proto",
     "description": "Web Proto landing page",
     "lang": "fr-FR",
-    "start_url": "/prototypes/html5/",
+    "start_url": "/pwa/prototypes/html5/",
     "display": "standalone",
     "theme_color": "#E6E6FA",
     "background_color": "#E6E6FA",
