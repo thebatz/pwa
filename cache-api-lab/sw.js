@@ -1,11 +1,12 @@
 const filesToCache = [
   '/',
-  'style/main.css',
-  'images/still_life_medium.jpg',
-  'index.html',
-  'pages/offline.html',
-  'pages/404.html',
-  'pages/post2.html'
+  './style/main.css',
+  './images/still_life_medium.jpg',
+  './images/images/volt_medium.jpg',
+  './index.html',
+  './pages/offline.html',
+  './pages/404.html',
+  './pages/post2.html'
 ];
 
 const staticCacheName = 'pages-cache-v2';
