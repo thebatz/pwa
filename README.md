@@ -6,3 +6,6 @@ a sample showing how to display a custom "Sorry, you're offline." error page whe
 
 - [Cache api lab](https://thebatz.github.io/pwa/cache-api-lab/index.html) -
 simple caching test pages
+
+- [Manifest lab](https://thebatz.github.io/pwa/proto-ui/index.html) -
+simple app install - cache first mode (use sw-toolbox)
