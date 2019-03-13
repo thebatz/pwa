@@ -21,7 +21,7 @@ limitations under the License.
   <!-- Set the viewport -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
   <!-- Set title -->
-  <title>Photo blog</title>
+  <title>Cache-API-Lab</title>
   <!-- Request styles -->
   <link rel="stylesheet" href="./style/main.css" />
 </head>
@@ -30,17 +30,17 @@ limitations under the License.
     <h1>Cache-API-Lab</h1>
   </header>
   <main>
+    <p>
+      Test !
+    </p>
     <div class="img-container">
       <!-- image is CC0 - no attribution required https://unsplash.com/photos/w9tHZ5fi3e4 -->
-      <img src="./images/still_life_medium.jpg" width="auto" height="200" alt="cake">
+      <img src="https://loremflickr.com/320/240/poutine" alt="wow">
     </div>
-    <p>
-      Is it ugly enought for you ?
-    </p>
     <ul>
-      <li><a href="./pages/post1.html">TEST page 1 - cached from app launch 2</a></li>
-      <li><a href="./pages/post2.html">TEST page 1 - cached from page load</a></li>
-      <li><a href="./non-existent.jpg">TEST page 3 - Non-existent file</a></li>
+      <li><a href="./pages/post1.html">Page 1 - cache on page load - cached offline fallback</a><br></li>
+      <li><a href="./pages/post2.html">Page 2 - cache on app launch</a><br></li>
+      <li><a href="./non-existent.html">Page 3 - Non-existent file - cached offline fallback</a><br></li>
     </ul>
   </main>
   <footer>
